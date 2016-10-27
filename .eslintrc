@@ -1,0 +1,24 @@
+
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+
+  "plugins": ["react"],
+
+  "env": {},
+
+  "globals": {
+    "document": true,
+    "window": true,
+   },
+
+  "rules": {
+     "no-multi-spaces": 0,
+     "react/jsx-boolean-value": 0,
+     "object-shorthand": 0,
+     "no-param-reassign": 0,
+     "maximumLineLength": 0,
+     "arrow-body-style": 0,
+     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  }
+}
